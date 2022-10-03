@@ -1,0 +1,28 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.main {
+  display: flex;
+}
+.box {
+  border: 2px solid black;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 50%;
+}
+
+.display-box {
+  height: 300px;
+}
+.input-box-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.input-box {
+  width: 45%;
+}
